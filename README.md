@@ -7,13 +7,13 @@ El diseño es limpio, responsive y accesible, utilizando únicamente **HTML5 y C
 
 ---
 
-## 🌐 Sitio web publicado (GitHub Pages)
+##  Sitio web publicado (GitHub Pages)
 
 👉 https://maxdarastrix.github.io/casas-caballis-html-Trabajo-Obligatorio/
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 
 
