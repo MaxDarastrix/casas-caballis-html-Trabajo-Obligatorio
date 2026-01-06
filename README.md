@@ -7,7 +7,7 @@ Proyecto web estático desarrollado como **trabajo final obligatorio** del módu
 ##  Sitio web publicado
 
 GitHub Pages:  
-👉 https://TU_USUARIO.github.io/casas-caballis-html-Trabajo-Obligatorio/
+ https://TU_USUARIO.github.io/casas-caballis-html-Trabajo-Obligatorio/
 
 *(Sustituye TU_USUARIO por tu nombre de usuario de GitHub)*
 
