@@ -1,90 +1,81 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Casas Caballis - Propiedades</title>
-<link href="../css/style.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casas Caballis - Propiedades</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<!-- Encabezado -->
 <header class="site-header">
-<div class="container nav-container">
-<a aria-label="Casas Caballis" class="logo" href="../index.html">
-<img src="../img/Lucid_Origin_A_luxurious_modern_logo_design_featuring_the_text_1.jpg"   alt="Casas Caballis" class="footer-logo" width="260" height="64">
-</a>
-<nav aria-label="Navegación principal" class="main-nav">
-<ul>
-<li><a href="../index.html">Inicio</a></li>
-<li><a class="active" href="propiedades.html">Propiedades</a></li>
-<li><a href="presupuesto.html">Solicitar info</a></li>
-<li><a href="contacto.html">Contacto</a></li>
-</ul>
-</nav>
-<a class="cta" href="presupuesto.html">Contactar</a>
-</div>
+  <div class="container nav-container">
+    <a href="../index.html" class="logo" aria-label="Casas Caballis - Inicio">
+      <img src="../img/logo.jpg" alt="Logo de Casas Caballis" width="1200" height="1200">
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../views/propiedades.html" class="active">Propiedades</a></li>
+        <li><a href="../views/presupuesto.html">Solicitar info</a></li>
+        <li><a href="../views/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <a class="cta" href="../views/presupuesto.html">Contactar</a>
+  </div>
 </header>
-<!-- Contenido principal -->
+
 <main class="container">
-<h1>Propiedades disponibles</h1>
-<!-- PROPIEDAD 1 -->
-<section class="property-row">
-<img alt="Apartamentos Madrid de Villa Mar" height="333" src="../img/colorful-street-in-madrid-old-town-on-a-sunny-day-spain.webp" width="500"/>
-<div class="property-info">
-<p class="price">450.000 €</p>
-<h2>Apartamentos Madrid de Villa Mar</h2>
-<p>
-                Ubicados en pleno centro histórico de Madrid.
-                4 habitaciones, 2 baños, balcón y vistas a la ciudad.
-            </p>
-</div>
-</section>
-<!-- PROPIEDAD 2 -->
-<section class="property-row">
-<img alt="Vecindario de Pueblo Norte" height="333" src="../img/full-length-of-family-standing-against-houses.webp" width="500"/>
-<div class="property-info">
-<p class="price">240.000 €</p>
-<h2>Vecindario de Pueblo Norte</h2>
-<p>
-                Ideal para familias.
-                3 habitaciones, jardín privado, zona tranquila y segura.
-            </p>
-</div>
-</section>
-<!-- PROPIEDAD 3 -->
-<section class="property-row">
-<img alt="Costa de Alacant Casas" height="333" src="../img/houses-in-costa-del-sol.webp" width="500"/>
-<div class="property-info">
-<p class="price">690.000 €</p>
-<h2>Costa de Alacant Casas</h2>
-<p>
-                Vivienda de lujo frente al mar.
-                5 habitaciones, piscina privada y terraza panorámica.
-            </p>
-</div>
-</section>
+  <h1>Propiedades</h1>
+
+  <section aria-label="Listado de propiedades">
+    <article class="property-row">
+      <img src="../img/prop1.webp" alt="Casa moderna con jardín" width="500" height="333">
+      <div>
+        <p class="price">450.000 €</p>
+        <h2>Chalet moderno</h2>
+        <p>Vivienda luminosa con jardín, garaje y acabados premium.</p>
+      </div>
+    </article>
+
+    <article class="property-row">
+      <img src="../img/prop2.webp" alt="Barrio residencial con casas nuevas" width="500" height="334">
+      <div>
+        <p class="price">320.000 €</p>
+        <h2>Adosado familiar</h2>
+        <p>Perfecto para familias, con zona verde y servicios cercanos.</p>
+      </div>
+    </article>
+
+    <article class="property-row">
+      <img src="../img/prop3.webp" alt="Viviendas en la costa" width="500" height="357">
+      <div>
+        <p class="price">610.000 €</p>
+        <h2>Villa con vistas</h2>
+        <p>Entorno privilegiado, terrazas amplias y vistas al mar.</p>
+      </div>
+    </article>
+  </section>
 </main>
-<!-- Pie de página -->
+
 <footer class="site-footer">
-<div class="container footer-grid">
-<div class="footer-brand">
-<img alt="Casas Caballis" height="1200" src="../img/Lucid_Origin_A_luxurious_modern_logo_design_featuring_the_text_1.jpg" width="1200"/>
-<p>C/ Ejemplo 45, 28000 Madrid</p>
-</div>
-<div class="footer-social">
-<p>Síguenos</p>
-<a href="https://www.facebook.com" rel="noopener" target="_blank">
-<img alt="Facebook" height="32" src="../img/facebook.svg" width="32"/>
-</a>
-<a href="https://www.instagram.com" rel="noopener" target="_blank">
-<img alt="Instagram" height="32" src="../img/instagram.svg" width="32"/>
-</a>
-</div>
-<div class="footer-legal">
-<p>© 2025 Casas Caballis · Aviso legal · Política de privacidad</p>
-</div>
-</div>
+  <div class="container footer-grid">
+    <div>
+      <span class="footer-brand">Casas Caballis</span>
+      <p>C/ Ejemplo 45, 28000 Madrid</p>
+    </div>
+
+    <div>
+      <p>Síguenos</p>
+      <a href="#" aria-label="Facebook (enlace de ejemplo)">Facebook</a> ·
+      <a href="#" aria-label="Instagram (enlace de ejemplo)">Instagram</a>
+    </div>
+
+    <div>
+      <p>© 2025 Casas Caballis · <a href="#" aria-label="Aviso legal (pendiente)">Aviso legal</a> · <a href="#" aria-label="Política de privacidad (pendiente)">Política de privacidad</a></p>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
