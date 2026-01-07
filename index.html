@@ -2,27 +2,20 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Casas Caballis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casas Caballis</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
 <header class="site-header">
   <div class="container nav-container">
-
-    <a href="index.html" class="logo">
-      <img
-        src="img/Lucid_Origin_A_luxurious_modern_logo_design_featuring_the_text_1.jpg"
-        alt="Casas Caballis"
-        width="512"
-        height="512">
+    <a href="index.html" class="logo" aria-label="Casas Caballis - Inicio">
+      <img src="img/logo.jpg" alt="Logo de Casas Caballis" width="1200" height="1200">
     </a>
 
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Navegación principal">
       <ul>
-        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a href="index.html" class="active">Inicio</a></li>
         <li><a href="views/propiedades.html">Propiedades</a></li>
         <li><a href="views/presupuesto.html">Solicitar info</a></li>
         <li><a href="views/contacto.html">Contacto</a></li>
@@ -33,107 +26,75 @@
   </div>
 </header>
 
-<main>
-
-  <!-- HERO -->
-  <section class="hero container">
+<main class="container">
+  <section class="hero" aria-label="Presentación">
     <div class="hero-left">
       <h1>¿Buscas la casa de tus sueños?</h1>
-      <p class="lead">
-        Casas Caballis — viviendas exclusivas con las mejores ubicaciones y acabados.
-      </p>
-      <a class="btn" href="views/propiedades.html">Ver Propiedades</a>
+      <p class="lead">Casas Caballis — viviendas exclusivas con las mejores ubicaciones y acabados.</p>
+      <a class="btn" href="views/propiedades.html">Ver propiedades</a>
     </div>
 
     <div class="hero-right">
-      <img
-        src="img/buying-house-spain-1024x591.webp"
-        alt="Casa con vistas al mar"
-        width="1024"
-        height="591">
+      <img src="img/hero.webp" alt="Casa con vistas al mar" width="500" height="289">
     </div>
   </section>
 
-  <!-- FEATURES -->
-  <section class="features container">
+  <section class="features" aria-label="Ventajas">
     <article>
-      <h3>Asesoría personalizada</h3>
+      <h2>Asesoría personalizada</h2>
       <p>Acompañamiento completo durante todo el proceso de compra.</p>
     </article>
 
     <article>
-      <h3>Propiedades revisadas</h3>
+      <h2>Propiedades revisadas</h2>
       <p>Documentación verificada e inspección profesional.</p>
     </article>
 
     <article>
-      <h3>Entrega rápida</h3>
+      <h2>Entrega rápida</h2>
       <p>Gestión ágil para que te mudes cuanto antes.</p>
     </article>
   </section>
 
-  <!-- GALERÍA -->
-  <section class="gallery-preview container">
+  <section class="gallery-preview" aria-label="Propiedades destacadas">
     <h2>Nuestras propiedades destacadas</h2>
 
     <div class="grid-3">
-
       <figure>
-        <img
-          src="img/colorful-street-in-madrid-old-town-on-a-sunny-day-spain.webp"
-          alt="Apartamentos en Madrid"
-          width="1200"
-          height="800">
+        <img src="img/destacado1.webp" alt="Apartamentos en Madrid" width="500" height="333">
         <figcaption>Apartamentos Madrid de Villa Mar</figcaption>
       </figure>
 
       <figure>
-        <img
-          src="img/full-length-of-family-standing-against-houses.webp"
-          alt="Vecindario familiar"
-          width="1200"
-          height="800">
+        <img src="img/destacado2.webp" alt="Vecindario familiar" width="500" height="333">
         <figcaption>Vecindario de Pueblo Norte</figcaption>
       </figure>
 
       <figure>
-        <img
-          src="img/houses-in-costa-del-sol.webp"
-          alt="Casas en la Costa de Alicante"
-          width="1200"
-          height="800">
+        <img src="img/destacado3.webp" alt="Casas en la Costa de Alicante" width="500" height="333">
         <figcaption>Costa de Alicante Casas</figcaption>
       </figure>
-
     </div>
   </section>
-
 </main>
 
 <footer class="site-footer">
   <div class="container footer-grid">
-
     <div>
-      <strong>Casas Caballis</strong>
+      <span class="footer-brand">Casas Caballis</span>
       <p>C/ Ejemplo 45, 28000 Madrid</p>
     </div>
 
-    <div class="footer-social">
+    <div>
       <p>Síguenos</p>
-      <a href="https://facebook.com" target="_blank">
-        <img src="img/facebook.svg" alt="Facebook" width="24" height="24">
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <img src="img/instagram.svg" alt="Instagram" width="24" height="24">
-      </a>
+      <a href="#" aria-label="Facebook (enlace de ejemplo)">Facebook</a> ·
+      <a href="#" aria-label="Instagram (enlace de ejemplo)">Instagram</a>
     </div>
 
     <div>
-      <p>© 2025 Casas Caballis · Aviso legal · Política de privacidad</p>
+      <p>© 2025 Casas Caballis · <a href="#" aria-label="Aviso legal (pendiente)">Aviso legal</a> · <a href="#" aria-label="Política de privacidad (pendiente)">Política de privacidad</a></p>
     </div>
-
   </div>
 </footer>
-
 </body>
 </html>
